@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    
+}
+/** NavBaar................................................    **/
+.navbar {
+
+    height: 60px;
+    color: white;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    
+    border: 2px solid transparent;
+    
+    
+}
+.border:hover{
+    box-sizing: border-box; 
+    border: 2px solid rgb(255, 255, 255);
+}
+/** Address boxx...............................................    **/
+.add1{
+font-size: 0.85rem;
+color: #cccccc;
+margin-left: 15px;
+}
+.add2{
+font-size: 1rem;
+margin-left: 3px;
+font-weight: 700;
+}
+.add-icon{
+    display: flex;
+    align-items: center ;
+}
+
+/** Search boxx   .................................................. **/
+.nav-search{
+    background-color: palevioletred;
+    display: flex;
+    height: 40px;
+    width: 625px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius: 4px;
+    border:none
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border:none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #febd68;
+    border-top-right-radius:4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+
+/** Country selection box .....................................  **/
+.nav-country{
+    display: flex;
+    align-items: center;
+}
+
+.country-flag{
+    margin-left: 2px;
+}
+
+.country-name{
+    margin-left: 2px;
+}
+
+.country-select{
+    width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 10px solid #676666;
+    margin-left: 2px;
+}
+.country-deselect{
+    width: 0;
+	height: 0;
+	border-left: 9px solid transparent;
+	border-right: 9px solid transparent;
+	border-top: 11px solid #676666;
+    margin-left: 2px;
+    align-content: center;
+    
+}
+/** Returns and orders box  ................................  **/
+.span{
+    font-size: 0.70rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** Cart box in navbar .......................................   **/
+.cart-logo i {
+    
+    font-size: 35px;
+    
+}
+.nav-cart{
+    display: flex;
+    align-items: center;
+
+}
+.cart-logo{
+    position: relative;
+}
+.count {
+    color: rgb(161, 13, 13);
+    position: absolute;
+    top: 30%; /* Position it 50% from the top */
+    left: 30%; /* Position it 50% from the left */
+    transform: translate(-50%, -50%); /* Move it 50% of its own width and height back */
+  }
+  @media screen and (max-width: 1150px) {
+    .count{
+        position: absolute;
+    top: 20%; /* Position it 50% from the top */
+    left: 30%; /* Position it 50% from the left */
+    transform: translate(-50%, -50%);
+    }
+    
+  }
+  @media screen and (max-width: 864px) {
+    .count{
+        position: absolute;
+    top: 20%; /* Position it 50% from the top */
+    left: 45%; /* Position it 50% from the left */
+    transform: translate(-50%, -50%);
+    }
+    
+  }
+  /** panel section Section  .........................................  **/
+  .panel{
+    background-color: #222f3d;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+  }
+  .panel-ops p{
+    display: inline;
+    margin-left: 10px;
+  }
+  .panel-ops{
+    width: 70%;
+  }
+  .panel-deals{
+    font-weight: 700;
+  }
+  /** Heroes Section ...............................................    **/
+.hero-section{
+    background-image: url(heroesimageupdate.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.hero-msg{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 200;
+    background-color: white;
+    margin-bottom: 25px;
+    width: 95%;
+}
+.hero-msg a{
+    color: #007185;
+}
+/**box section shopping.......................................................................**/
+.box{
+    margin-top: 15px;
+    
+    height: 400px;
+    width: 20%;
+    background-color: white;
+    padding: 0px 20px 15px;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:#e2e7e6;
+    
+}
+.box-img{
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: #007185;
+}
+/**         Footer Panel1 ........................................................ **/
+
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.foot-panel2 ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 15px;
+    color: #dddddd
+}
+.foot-panel2 ul{
+    margin-top: 20px;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    
+
+}
+.foot-panel4{
+    background-color:#0f1111;
+    color: white;
+    display: flex;
+    
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pages{
+    font-size: 0.75rem;
+    text-align:center ;
+
+}
+.pages p{
+    margin-top: 10px;
+}
